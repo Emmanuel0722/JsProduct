@@ -13,7 +13,7 @@ class Ui{
         //  style="text-align-last: justify; height: 50px;" <= 'Esto va en el segundo div.'
         element.innerHTML = `
             <div class="card pt-2 mb-2">
-                <div class="car-body text-center p-2">
+                <div class="car-body text-center p-2 d-flex justify-content-evenly align-items-center">
                     <label><strong>Producto:</strong> ${product.nameProduct}</label>  |  
                     <label><strong>Precio: </strong>${product.price}</label>  |  
                     <label"><strong>Cantidad: </strong>${product.cant}</label>   |
